@@ -4,6 +4,8 @@ const express = require('express');
 const axios = require('axios');
 require('dotenv').config();
 
+
+
 const app = express();
 const port = 3000;
 const API_KEY = process.env.OPENWEATHER_API_KEY;
